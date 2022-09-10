@@ -11,36 +11,17 @@
     z-index: 1030;
   }
   
-  .container-blog {
-    margin-top: 50px;
-  }
-  
-  h1 {
-    font-size: 48px;
-  }
-  .h2 {
-    font-size: 18px;
-    font-weight: 800;
+  .name {
+    font-size: 76px;
   }
 
-  .lorem {
-    text-align: center;
-    margin: 20px 20px;
+  .h2 {
+    font-size: 36px;
+    opacity: 0.8;
   }
-  
-  .yoga {
-    
-    background-color: var(--background-color);
-  }
-  
-  .wheather-logo {
-    
-    background-color: var(--background-color);
-  }
-  
-  .coffee-logo {
-    
-    background-color: var(--background-color);
+
+  .blog {
+    font-weight: 600;
   }
   
   footer {
