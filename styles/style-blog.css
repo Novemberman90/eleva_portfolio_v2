@@ -1,0 +1,72 @@
+:root {
+    --background-color: #f5f2fe;
+    --color: red;
+  }
+  
+  .fix-top {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 1030;
+  }
+  
+  .container-blog {
+    margin-top: 50px;
+  }
+  
+  h1 {
+    font-size: 48px;
+  }
+  .h2 {
+    font-size: 18px;
+    font-weight: 800;
+  }
+
+  .lorem {
+    text-align: center;
+    margin: 20px 20px;
+  }
+  
+  .yoga {
+    
+    background-color: var(--background-color);
+  }
+  
+  .wheather-logo {
+    
+    background-color: var(--background-color);
+  }
+  
+  .coffee-logo {
+    
+    background-color: var(--background-color);
+  }
+  
+  footer {
+    margin-top: 100px;
+  }
+  .mail {
+    margin-top: 300px;
+    text-decoration: none;
+  }
+  .mail:hover {
+    color: var(--color);
+  }
+
+  @media (max-width:576px){
+    h1 {
+        font-size: 48px;
+        line-height: 1.5;
+      }
+    
+      .h2 {
+        font-size: 24px;
+        text-align: center;
+      }
+    
+      .lorem {
+        text-align: center;
+        margin: 20px 20px;
+      }
+  }
