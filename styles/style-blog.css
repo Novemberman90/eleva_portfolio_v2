@@ -1,6 +1,5 @@
 :root {
     --background-color: #f5f2fe;
-    --color: red;
   }
   
   .fix-top {
@@ -23,31 +22,55 @@
   .blog {
     font-weight: 600;
   }
-  
+
   footer {
-    margin-top: 100px;
-  }
-  .mail {
-    margin-top: 300px;
-    text-decoration: none;
-  }
-  .mail:hover {
-    color: var(--color);
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    padding: 5px;
   }
 
+  .messeg{
+    display: block;
+    text-align: center;
+    border-bottom: 2px solid black;
+  }
+  .contact-block {
+    padding: 5px;
+    display: flex;
+    justify-content:space-evenly;
+    border-radius: 5px;
+ }
+  
+ i {
+  font-size: 24px;
+  transition: ease-in-out 280ms;
+  color: black;
+ }
+
+ i:hover {
+  font-size: 28px;
+  color: black;
+  background-color:  yellow;
+  border-radius: 5px;
+  padding: 5px;
+ }
+
   @media (max-width:576px){
-    h1 {
-        font-size: 48px;
-        line-height: 1.5;
-      }
-    
-      .h2 {
-        font-size: 24px;
-        text-align: center;
-      }
-    
-      .lorem {
-        text-align: center;
-        margin: 20px 20px;
-      }
+    .name {
+      font-size: 38px;
+      text-align: center;
+    }
+  
+    .h2 {
+      font-size: 22px;
+      text-align: center;
+    }
+
+    .blog {
+      text-align: center;
+    }
+    footer {
+      margin-top: 20px;
+    }
   }
